@@ -9,7 +9,7 @@ container.addEventListener('mouseenter', event => {
 const genButton = document.querySelector('#gen-btn');
 genButton.addEventListener('click', () => {
     while (true) {
-        let size = prompt('Enter size of grid (max: 100)');
+        const size = prompt('Enter size of grid (max: 100)');
         if (size <= 100) {
             generateGrid(size);
             break;
