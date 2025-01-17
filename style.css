@@ -6,16 +6,28 @@
 
 body {
     padding: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     border: 1px solid black;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
+    max-height: 100%;
+    width: 50vw;
+    aspect-ratio: 1;
+}
+
+.row {
+    display: flex;
+    flex: 1;
 }
 
 .square {
-    width: 30px;
-    height: 30px;
     border: 1px red solid;
+    flex: 1;
+
 }

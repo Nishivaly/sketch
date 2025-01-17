@@ -5,7 +5,7 @@ square.setAttribute('class', 'square');
 const row = document.createElement('div');
 row.setAttribute('class', 'row');
 
-generateGrid(16);
+generateGrid(30);
 
 function generateGrid(size) {
     for (let i = 0; i < size; i++) {
