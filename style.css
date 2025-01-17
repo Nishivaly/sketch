@@ -8,8 +8,14 @@ body {
     padding: 10px;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#gen-btn {
+    padding: 5px;
+    margin-bottom: 40px;
 }
 
 .container {
@@ -29,5 +35,8 @@ body {
 .square {
     border: 1px red solid;
     flex: 1;
+}
 
+.hovered {
+    background: blue;
 }
